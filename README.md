@@ -1,29 +1,27 @@
-# E-commerce Business Performance & Diagnostic Analysis
+# E-commerce Business Performance and Diagnostic Analysis
 
 ## Project Overview
-This exploratory data analysis (EDA) project investigates a dataset of 5,000 e-commerce transactions. Beyond basic performance tracking, this project aims to diagnose the underlying drivers of profitability across different product categories to support strategic inventory and marketing decisions.
+This exploratory data analysis project examines a dataset containing 5,000 e-commerce transactions. The primary goal goes beyond simple performance tracking to diagnose the actual drivers of profitability across various product categories. This approach provides the necessary evidence for strategic inventory and marketing decisions.
 
-## Tools & Technologies
-* Python programming language
-* Pandas for data manipulation
-* Matplotlib and Seaborn for data visualization
-* Google Colab coding environment
+## Tools and Technologies
+The analysis was conducted using the Python programming language within a Google Colab environment. Data manipulation was handled through Pandas while Matplotlib and Seaborn were used to create the visual representations of the findings.
 
-## Key Findings & Business Insights
+## Key Findings and Business Insights
 
-### 1. Descriptive Analytics: Profit Leaders
-Based on the total profit analysis, the Furniture, Home Decor, and Clothing categories emerge as the primary revenue drivers. Furniture, in particular, significantly outperforms other categories in terms of absolute profit contribution.
+### Descriptive Analytics on Profit Leaders
+The initial analysis of total profit shows that Furniture, Home Decor, and Clothing are the primary revenue drivers. Furniture stands out significantly by outperforming all other categories in absolute profit contribution.
 
-### 2. Diagnostic Analytics: Volume vs. Margin
-By performing a diagnostic analysis using a Dual-Axis Chart, we uncovered the reasons behind Furniture's dominance:
-* Furniture records the highest sales volume (Total Quantity Sold), indicating strong market demand and widespread customer reach.
-* Despite the massive sales volume, Furniture successfully maintains a high average profit per transaction.
-* While Electronics has the highest profit margin per item, it lacks the sales volume of Furniture. Conversely, Kitchen and Groceries suffer from both lower volume and lower margins.
+### Diagnostic Analytics regarding Volume and Margin
+A diagnostic analysis using a Dual-Axis Chart revealed the specific factors behind the dominance of the Furniture category.
+* Furniture achieves the highest sales volume which indicates strong market demand and wide customer reach.
+* The category successfully maintains a high average profit per transaction even with such massive sales volume.
+* While Electronics has the highest profit margin per individual item, it lacks the sales volume to match Furniture.
+* Both Kitchen and Groceries suffer from a combination of lower sales volume and lower profit margins.
 
 ## Strategic Recommendations
-* The business should heavily scale its Furniture operations. Since it is the clear star of the catalog, prioritizing its supply chain and expanding the sub-category range is highly recommended.
-* Marketing efforts for Electronics should focus on increasing sales volume to maximize its superior profit margins.
-* Management needs to conduct an operational cost audit for the Kitchen and Groceries categories to identify why their profit margins are significantly lower than the rest of the business.
+* Scale Furniture operations immediately because it is the clear leader in the catalog. The business should prioritize the supply chain for this category and expand the available sub-category range.
+* Focus marketing efforts for Electronics on increasing sales volume to take full advantage of its superior profit margins.
+* Conduct an operational cost audit for the Kitchen and Groceries categories to determine why their profit margins are significantly lower than the rest of the business.
 
 ---
 *Created as part of an ongoing Business Analytics Portfolio.*
